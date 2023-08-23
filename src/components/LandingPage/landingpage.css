@@ -1,0 +1,111 @@
+.main {
+    padding: 20px;
+    /* background-color: #ffffff; */
+    background-image: url("../../components/Images/bgimg.jpeg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.vortex-name {
+    align-items: flex-start;
+    padding-top: 70px;
+    font-weight: bold;
+    color: #b22222;
+    text-align: center;
+    font-size: 11vw;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.the-pgm-simulator {
+    align-self: start;
+    font-weight: bold;
+    color: #0a0a0a;
+    text-align: center;
+    font-size: 3.2vw;
+    width: 100%;
+    padding-bottom: 80px;
+    padding-left: 20px;
+}
+
+.downward-arrow {
+    text-align: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.downward-arrow a {
+    text-decoration: none;
+    color: #193040;
+}
+
+.list-of-functs {
+    padding-bottom: 100px;
+}
+
+.list-of-functs ul {
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-of-functs ul li {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: #960019;
+    padding: 15px;
+    width: 50%;
+}
+
+ol,
+ul {
+    padding-left: 0rem;
+}
+
+.list-of-functs ul li a {
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: #eff8ff;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+@media (max-width:767px) {
+    .vortex-name {
+        padding-top: 25vh;
+        font-size: 25vw;
+        text-align: center;
+        padding-left: auto;
+    }
+
+    .the-pgm-simulator {
+        font-size: 12vw;
+        text-align: center;
+        padding-bottom: 25vh;
+        padding-left: auto;
+    }
+
+    .list-of-functs ul {
+        margin-top: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .list-of-functs ul li {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+}

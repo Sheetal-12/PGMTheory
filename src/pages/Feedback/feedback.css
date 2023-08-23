@@ -1,0 +1,44 @@
+.feedback {
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    background-color: #d3d3d3;
+    display: flex;
+    flex-direction: column;
+}
+
+#feefoo {
+    text-align: center;
+}
+
+.g-form {
+    /* align-items: center; */
+    /* align-content: center; */
+    /* justify-content: center; */
+    width: 100%;
+    height: 400px;
+    display: block;
+    /* align-items: center; */
+}
+
+.feedback-mob {
+    display: none;
+    background-color: #d3d3d3;
+    padding-bottom: 30px;
+}
+
+.feedback-mob p {
+    text-align: center;
+}
+
+
+@media (max-width:767px) {
+    .feedback-mob {
+        display: block;
+    }
+
+    .g-form {
+        display: none;
+    }
+}
